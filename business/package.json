@@ -1,0 +1,23 @@
+{
+  "name": "business",
+  "version": "1.0.0",
+  "main": ".src/core.js",
+  "type": "module",
+  "module": "./src/core.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch",
+    "test:ci": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test2": "jest --watch"
+  },
+  "author": "Joe Bush <joebush3d@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
